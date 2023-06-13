@@ -1,11 +1,15 @@
 import React from "react";
 import { StyleSheet, View } from "react-native";
 import StudentRegistration from "./StudentRegistration";
+import OCRComponent from "./OCRComponent";
+import VisitingCardScanner from "./VisitingCardScanner";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <StudentRegistration />
+      {/* <OCRComponent/> */}
+      <VisitingCardScanner/>
+      {/* <StudentRegistration /> */}
     </View>
   );
 }
